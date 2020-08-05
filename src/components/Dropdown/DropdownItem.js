@@ -57,7 +57,7 @@ const DropdownItem = ({ data, derivedProp, placeholder, searchablePlaceholder, s
     )
 }
 
-DropdownItem.displayName = 'HarmlessComponent';
+DropdownItem.displayName = 'DropdownItem';
 
 DropdownItem.PropTypes = {
     text: PropTypes.string.isRequired
